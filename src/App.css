@@ -1,0 +1,51 @@
+.weatherBg{
+    background: url(https://source.unsplash.com/random/?weather);
+    height:20CM;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.head{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-style:normal;
+}
+.weatherResultBox{
+    margin: auto;
+    width: 650px;
+    height: 300px;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(103, 75, 75, 0.15)!important;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+.Wicon{
+    margin-top: 2rem;
+    width: 100px;
+    height: 100px;
+
+}
+.wCity{
+    font-size:40px ;
+}
+.wTemp{
+    font-size: 20px;
+    font-weight: 800;
+}
